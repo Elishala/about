@@ -1,7 +1,7 @@
 body {
   font-family: 'News Cycle', sans-serif;
   background-color: #121D33;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -26,9 +26,10 @@ nav li {
 }
 
 nav li a {
-  padding: 0 15px;
-  /*display: block;*/
+  padding: 0 40px;
+  display: block;
   text-decoration: none;
+  height: 40px;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
@@ -39,6 +40,10 @@ nav li a {
 nav li a:hover {
   background: #D2FDFF;
   color: #121D33;
+}
+
+.home {
+    color: #D2FDFF;
 }
 
 #about {
@@ -56,7 +61,7 @@ section {
 .container {
   background: white;
   padding: 5%;
-  height: 418px;
+  height: 375px;
   width: 75%;
   margin: 0 auto;
 }
@@ -85,4 +90,11 @@ section {
   /*shape-margin: 30px;*/
   /*shape-outside: circle();*/
   /*float: left;*/
+}
+
+.about-dev {
+  width: 866px;
+  height: 399px;
+  line-height: 1.4em;
+  font-size: 19px;
 }
