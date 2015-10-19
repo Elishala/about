@@ -1,0 +1,56 @@
+body {
+  font-family: 'News Cycle', sans-serif;
+  background-color: #121D33;
+  padding-top: 10%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Londrina Shadow', cursive;
+  color: #D2FDFF;
+}
+
+#about {
+  text-align: center;
+  font-size: 4.3em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  max-width: 100%;
+  padding-bottom: 5%;
+}
+
+.container {
+  background: white;
+  padding: 5%;
+  height: 418px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.ncma-pic {
+  width: 33%;
+  border-radius: 50%;
+  /*shape-image-threshold defines min opacity level of pixels used to create shape, value can be btw 0.0 and 1.0*/
+  shape-image-threshold: 0.5;
+  /*float left is key. the shape-outside defines shape area around which content will wrap, w/o float you won't see effects of shape*/
+  float: left;
+  /*shape-margin: 15px;*/
+  shape-outside: circle(50%);
+  padding: 2%;
+
+}
+
+.about-design {
+  width: 866px;
+  height: 399px;
+  line-height: 1.4em;
+  font-size: 19px;
+  /*shape-outside and shape-margin go together*/
+  /*shape-image-threshold defines min opacity level of pixels used to create shape, value can be btw 0.0 and 1.0*/
+  /*shape-image-threshold: 0.5;*/
+  /*shape-margin: 30px;*/
+  /*shape-outside: circle();*/
+  /*float: left;*/
+}
