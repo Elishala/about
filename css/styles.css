@@ -84,12 +84,6 @@ section {
   height: 399px;
   line-height: 1.4em;
   font-size: 19px;
-  /*shape-outside and shape-margin go together*/
-  /*shape-image-threshold defines min opacity level of pixels used to create shape, value can be btw 0.0 and 1.0*/
-  /*shape-image-threshold: 0.5;*/
-  /*shape-margin: 30px;*/
-  /*shape-outside: circle();*/
-  /*float: left;*/
 }
 
 .about-dev {
@@ -97,4 +91,73 @@ section {
   height: 399px;
   line-height: 1.4em;
   font-size: 19px;
+}
+
+@media only screen and (max-width: 1101px) {
+  #about {
+    font-size: 2.3em;
+  }
+  .about-design {
+    font-size: 20px;
+    line-height: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1081px) {
+  .about-design {
+    font-size: 19px;
+}
+  .container {
+    height: 277px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .about-design {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-design {
+    font-size: 14px;
+    height: 350px;
+  }
+  nav {
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .container {
+    height: 300px;
+  }
+  .about-design {
+     font-size: 14px;
+   }
+   nav {
+     height: 37px;
+   }
+}
+
+@media only screen and (max-width: 469px) {
+  .about-design {
+    height: 389px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about-design {
+    height: 377px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  nav {
+    height: 36px;
+  }
+  .about-design {
+    font-size: 13px;
+  }
 }
