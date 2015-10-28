@@ -119,7 +119,16 @@ section {
     width: 100%;
   }
 }
-
+@media only screen and (max-width: 740px) {
+  .container {
+    height: 315px;
+  }
+}
+@media only screen and (max-width: 653px) {
+  .container {
+    height: 325px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .about-design {
     font-size: 14px;
@@ -132,13 +141,16 @@ section {
 
 @media only screen and (max-width: 470px) {
   .container {
-    height: 300px;
+    height: 340px;
   }
   .about-design {
      font-size: 14px;
    }
    nav {
      height: 37px;
+   }
+   nav li a:hover {
+     padding: 40px;
    }
 }
 
