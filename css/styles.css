@@ -40,6 +40,7 @@ nav li a {
 nav li a:hover {
   background: #D2FDFF;
   color: #121D33;
+  padding: 80px;
 }
 
 .home {
