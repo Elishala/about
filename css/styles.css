@@ -105,6 +105,19 @@ footer {
 #copyright {
   color: #D2FDFF;
   padding: 0 0 5% 0;
+  text-decoration: none;
+}
+
+#copyright:hover {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  border-radius: 50%;
+  background: #D2FDFF;
+  color: #121D33;
+  padding: 40px;
 }
 /*********************************************/
 /*BEGINNING OF RESPONSIVENESS SPECIFICITY*/
